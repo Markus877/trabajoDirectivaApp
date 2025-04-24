@@ -12,6 +12,7 @@ export class AppComponent {
   registrado = false;
   nombre:String = "";
   apellido:String = "";
+  cargo:String = "";
   entradas:Array<{titulo:string}>;
   
   constructor(){
